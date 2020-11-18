@@ -21,7 +21,7 @@ LANDMARK_AREA_LOWER_LIP = [48,60,67,66,65,64,54,55,56,57,58,59,48]
 LANDMARK_LEFT_IMAGE_EYE = [[36,39], [38,40]]
 LANDMARK_RIGHT_IMAGE_EYE = [[42,45],[43,47]]
 
-original = cv2.imread("sources/Face2.jpg")
+original = cv2.imread("sources/face1.jpg")
 frame_for_face_detection = original.copy()
 
 original = np.float32(original)/255
